@@ -1,0 +1,37 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+<section class="hero mb-4">
+  <h1 class="display-5 fw-semibold mb-2">Plan your next escape with Wanderly</h1>
+  <p class="lead mb-3">Tailor-made trips, stress-free planning, and real humans who care.</p>
+  <a class="btn btn-primary btn-lg" asp-page="/Contact">Start Planning</a>
+</section>
+
+<div class="row g-4">
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Expert Advice</h5>
+        <p class="card-text">Our advisors craft itineraries that fit your budget, timeline, and travel style.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Flexible Options</h5>
+        <p class="card-text">Choose from curated packages or build your own adventure from scratch.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">End-to-End Support</h5>
+        <p class="card-text">We’re with you from first idea to wheels-up—and back again.</p>
+      </div>
+    </div>
+  </div>
+</div>

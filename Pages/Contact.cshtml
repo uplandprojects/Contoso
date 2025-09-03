@@ -1,0 +1,30 @@
+@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+<h2 class="mb-3">Contact Us</h2>
+<p>We’d love to hear from you. Reach out by filling the form below:</p>
+
+<form method="post" class="row g-3">
+  <div class="col-md-6">
+    <label class="form-label">Name</label>
+    <input class="form-control" asp-for="Contact.Name" />
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Email</label>
+    <input class="form-control" asp-for="Contact.Email" />
+  </div>
+  <div class="col-12">
+    <label class="form-label">Message</label>
+    <textarea class="form-control" rows="4" asp-for="Contact.Message"></textarea>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Send</button>
+  </div>
+</form>
+
+@if (Model.Submitted)
+{
+  <div class="alert alert-success mt-3">Thanks for contacting us! We’ll get back to you shortly.</div>
+}

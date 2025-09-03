@@ -1,0 +1,12 @@
+.hero {
+  background: linear-gradient(135deg, #e6f2ff, #fff);
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+}
+.card-destination img {
+  object-fit: cover;
+  height: 160px;
+  width: 100%;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
