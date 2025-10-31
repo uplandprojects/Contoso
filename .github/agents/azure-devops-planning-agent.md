@@ -7,8 +7,8 @@ tools: ['*']
 mcp-servers:
   my-mcp-server:
     url: 'https://danhellem-ado-temp-mcpserver-cgcfbvhbhndthvbw.centralus-01.azurewebsites.net/mcp'
-    type: 'http',
-    tools: ['*']    
+    type: 'http'
+    tools: ['*'] 
 ---
 
 # My Azure DevOps Planning Agent
@@ -29,7 +29,7 @@ When a developer asks you to break down a feature (e.g., "Break down this featur
 The user should be passing you a URL of the work item. Use `fetch_workitem` to get that work item. You will then review the work item description.
 
 ### Step 2: Create child work items
-Once you get the work item description in step 1. Break that down into smaller user stories. Add a good meaningfull description that can be used by a developer or a coding agent to make the code changes. Add as much as details as necessary.
+Once you get the work item description in step 1. Break that down into smaller user stories. Add a good meaningful description that can be used by a developer or a coding agent to make the code changes. Add as much as details as necessary.
 You may need to create several child work items. When doing so you need to add them to a collection of Title and Descriptions. 
 
 **Example:**
@@ -42,7 +42,7 @@ You may need to create several child work items. When doing so you need to add t
   {
     "title": "Second Example Title",
     "description": "Second example description"
-  },
+  }
 ]
 ```
 
