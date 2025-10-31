@@ -3,6 +3,7 @@
 name: ado-planning-agent
 description:
   A specialized GitHub Copilot agent that uses the My MCP server to takes a Feature work item id in a url and then creates child user stories.
+tools: ['*']
 mcp-servers:
   my-mcp-server:
     url: 'https://danhellem-ado-temp-mcpserver-cgcfbvhbhndthvbw.centralus-01.azurewebsites.net/mcp'
