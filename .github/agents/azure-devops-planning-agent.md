@@ -7,7 +7,8 @@ tools: ['*']
 mcp-servers:
   my-mcp-server:
     url: 'https://danhellem-ado-temp-mcpserver-cgcfbvhbhndthvbw.centralus-01.azurewebsites.net/mcp'
-    type: 'http'    
+    type: 'http',
+    tools: ['*']    
 ---
 
 # My Azure DevOps Planning Agent
