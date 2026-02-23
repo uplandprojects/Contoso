@@ -1,3 +1,7 @@
+body {
+  background-color: gold;
+}
+
 .hero {
   background: linear-gradient(135deg, #e6f2ff, #fff);
   border-radius: 1rem;
